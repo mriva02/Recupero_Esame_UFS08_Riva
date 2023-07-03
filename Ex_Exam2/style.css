@@ -1,0 +1,51 @@
+.book {
+    border:none;
+    background-color: white;
+    margin-left: 100px;
+    font-family: "Syne";
+    font-size: x-large;
+    font-style: bold;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-right: 100px;
+    font-family: "Syne";
+}
+
+.left-header {
+    text-align: right;
+    font-family: "Syne"
+}
+
+.artworks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artwork {
+    margin: 20px;
+    text-align: center;
+    font-family: "Syne";
+  }
+
+.artwork img {
+    max-width: 300px;
+    height: auto;
+  }
+
+.description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Syne";
+}
+
+.footer{
+    font-family: "Syne";
+}
+
